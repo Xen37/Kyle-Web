@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #41d971;
+    padding: 20px;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.center-container {
+    margin: 20px 0;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4a90e2;
+    border: circle;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #41d971;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #41d971;
+    margin-bottom: 10px;
+}
+
+img {
+  display: flex;
+  width: 90%;
+  display: center;
+  padding: 20px;
+}
+
+
+/* Image Container Styling */
+.image-container1 {
+    display: flex;
+    width: 100%; /* You can adjust the size */
+    padding: 0px;
+    background-color: #f0f0f0; 
+    border-radius: 1px; /* Adds rounded corners */
+    justify-content: center;
+}
+
+
+.image-container img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Keeps the image's aspect ratio */
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color:#41d971;
+    color: black;
+    padding: 3px 0;
+    width: 100%;
+    bottom: 5;
+}
